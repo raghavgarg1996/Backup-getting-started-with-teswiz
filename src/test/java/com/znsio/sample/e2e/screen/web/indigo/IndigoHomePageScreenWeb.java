@@ -5,7 +5,6 @@ import com.znsio.e2e.runner.Runner;
 import com.znsio.e2e.tools.Driver;
 import com.znsio.e2e.tools.Visual;
 import com.znsio.sample.e2e.screen.indigo.IndigoHomePageScreen;
-import com.znsio.sample.e2e.screen.web.amazon.AmazonHomePageScreenWeb;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
