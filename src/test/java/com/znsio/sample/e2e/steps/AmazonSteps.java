@@ -33,21 +33,21 @@ public class AmazonSteps {
         new AmazonLoginBL().loginToAmazon();
     }
 
-    @When("I search for product")
-    public void iSearchForProduct() {
-        new HomePageBL().searchForProduct();
+    @When("I search for iphone")
+    public void iSearchForIphone() {
+        new HomePageBL().searchForIphone13();
     }
 
-    @And("I add the product in cart")
-    public void iAddTheProductInCart() {
-        new ProductDetailPageBL()
+    @And("I add the iphone in cart")
+    public void iAddTheIphoneInCart() {
+        new IphoneDetailPageBL()
                 .addToCart();
     }
 
-    @Then("product should be added to cart")
-    public void productShouldBeAddedToCart() {
+    @Then("iphone should be added to cart")
+    public void iphoneShouldBeAddedToCart() {
         new cartPageBL()
-                .validatingProductOnCart();
+                .iSeeTheIphone13SuccessfullyAddedToCart();
     }
 
 }
