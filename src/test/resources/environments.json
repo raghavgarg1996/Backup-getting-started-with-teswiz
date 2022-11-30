@@ -1,5 +1,6 @@
 {
   "prod": {
-    "AMAZON_BASE_URL": "https://www.amazon.in/"
+    "AMAZON_BASE_URL": "https://www.amazon.in/",
+    "INDIGO_BASE_URL": "https://www.goindigo.in/"
   }
 }
